@@ -32,6 +32,17 @@ public class Demo {
                 Show show = new Show();
                 show.showStudent();
                 break;
+
+            case 5:
+                AddFinalProject finalProject = new AddFinalProject();
+                finalProject.addFinalProject();
+                break;
+
+            case 8:
+                ShowFinalProjectDetails showFinalProject = new ShowFinalProjectDetails();
+                showFinalProject.showFinalProjectDetails();
+                break;
+
         }
 
     }
